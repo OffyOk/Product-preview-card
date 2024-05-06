@@ -115,7 +115,13 @@ button > p {
 }
 
 .attribution a {
+    text-decoration: none;
     color: hsl(228, 45%, 44%);
+}
+
+#myref:hover {
+    font-size: 1.5em;
+    color: hsl(78, 76%, 13%);
 }
 
 @media only screen and (max-width: 635px) {
