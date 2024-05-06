@@ -6,8 +6,8 @@
 
 ![Design preview for the Product preview card coding challenge](./design/desktop-preview.jpg)
 
-ส่วน [Link](https://offyok.github.io/Product-preview-card-main/) นี้เป็นหน้า web ที่ผมเขียนออกมาได้นะครับ และ
-สำหรับคนที่สนใจอยากไปทำบ้างก็สามารถตามลิงค์นี้ไปตำกันได้เลยครับ [Product preview card](https://www.frontendmentor.io/challenges/Product-preview-card-UG32l9m6dQ)
+ส่วน [Link](https://offyok.github.io/Product-preview-card/) นี้เป็นหน้า web ที่ผมเขียนออกมาได้นะครับ และ
+สำหรับคนที่สนใจอยากไปทำบ้างก็สามารถตามลิงค์นี้ไปตำกันได้เลยครับ [Product preview card](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
 ## ไกด์ในการทำเพิ่มเติมนะครับ
 
