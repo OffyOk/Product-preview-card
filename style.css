@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Fraunces", serif;
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+
+#project-mobile {
+    display: none;
+}
+
+#project-desk {
+    border-radius: 15px 0 0 15px;
+    width: 300px;
+}
+
+.description {
+    width: 300px;
+    padding: 30px;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.genre {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 20px 0 20px;
+
+}
+
+.details{
+    color: hsl(158, 36%, 37%);
+    font-weight: 500;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px;
+    color: hsl(158, 36%, 37%);
+}
+
+#discount {
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#fullprice {
+    font-weight: 400;
+    margin-left: 15px;
+    text-decoration: line-through;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+
+button > p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 635px) {
+    .container {
+        max-width: 330px;
+
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #project-mobile {
+        display: block;
+        width: 330px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    #project-desk {
+        display: none;
+    }
+
+    .description {
+        width: 300px;
+        padding: 20px;
+    }
+    p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+    }
+    
+    .genre {
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        font-size: 30px;
+        padding: 15px 0 15px;
+    
+    }
+    
+    .details{
+        color: hsl(158, 36%, 37%);
+        font-weight: 500;
+    }
+    
+    .price {
+        display: flex;
+        align-items: center;
+        margin: 20px 0 20px;
+        color: hsl(158, 36%, 37%);
+    }
+    
+    #discount {
+        font-size: 30px;
+    }
+
+
+}
